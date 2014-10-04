@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+animal_farm:
+  title: Animal Farm
+  author: George Orwell
+  year: 1945
+
+nineteen_eighty_four:
+  title: Nineteen Eighty-Four
+  author: George Orwell
+  year: 1948
+
+the_catcher_in_the_rye:
+  title: The Catcher in the Rye
+  author: J. D. Salinger
+  year: NULL
+
+the_gambler:
+  title: The Gambler
+  author: Fyodor Dostoyevsky
+  year: 1867
