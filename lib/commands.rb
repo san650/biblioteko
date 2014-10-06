@@ -1,7 +1,12 @@
 class Commands
   class Node
+    include Enumerable
+    extend Forwardable
+
     attr_reader :name, :params
     attr_accessor :nodes
+
+    def_delegator :nodes, :each
 
     def initialize(name, params)
       @name, @params, @nodes = name, params, []
